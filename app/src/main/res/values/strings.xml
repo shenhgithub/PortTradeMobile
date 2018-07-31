@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">陆桥航贸</string>
+    <string name="action_common_function">常用</string>
+    <string name="action_message_delete">删除</string>
+    <string name="mine_function_personal_info">个人信息</string>
+    <string name="mine_function_password_change">修改密码</string>
+    <string name="mine_function_settings">设置</string>
+    <string name="mine_function_update">检查更新</string>
+    <string name="mine_function_service">联系客服</string>
+    <string name="mine_function_about">关于</string>
+    <string name="exit_app">退出</string>
+
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_save">保存</string>
+    <string name="no_network">网络连接不可用</string>
+
+    <string name="pager_title_index">首页</string>
+    <string name="pager_title_function">业务</string>
+    <string name="pager_title_message">消息</string>
+    <string name="pager_title_other">我的</string>
+
+    <string name="function_item_title">功能项名称</string>
+    <string name="function_tag_1">货代</string>
+    <string name="function_tag_2">船代</string>
+    <string name="function_tag_3">货主</string>
+    <string name="function_tag_4">货运</string>
+    <string name="function_tag_5">车主</string>
+    <string name="function_tag_6">公共</string>
+
+    <string name="user_name">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="login_button">登	录</string>
+    <string name="login_title">登录</string>
+    <string name="login_reset">重新登录</string>
+    <string name="logout">退出登录</string>
+    <string name="login_null">请输入用户名密码</string>
+    <string name="login_save">记住密码</string>
+    <string name="login_auto">自动登录</string>
+    <string name="login_alert">未登录，请登录后操作</string>
+    <string name="login_loading">登录中...</string>
+    <string name="not_login">未登录</string>
+
+    <string name="old_password_hint">请输入原密码</string>
+    <string name="new_password_hint">请输入新密码</string>
+    <string name="reenter_password_hint">请再输入新密码</string>
+    <string name="password_change_button_title">确认修改</string>
+    <string name="password_change_loading">正在执行请求...</string>
+    <string name="password_change_different">两次密码输入不一致</string>
+    <string name="password_change_no_old_password">请输入原密码</string>
+    <string name="password_change_no_new_password">请输入新密码</string>
+    <string name="password_change_no_reenter_password">请再次输入新密码</string>
+    <string name="password_change_same">原密码与新密码相同</string>
+
+    <string name="personal_info_phone">电话：</string>
+    <string name="personal_info_mobile">手机：</string>
+    <string name="personal_info_email">邮箱：</string>
+    <string name="personal_info_phone_error">请输入正确的电话号码</string>
+    <string name="personal_info_mobile_error">请输入正确的手机号码</string>
+    <string name="personal_info_email_error">请输入正确的邮箱地址</string>
+    <string name="personal_info_loading">正在加载个人信息</string>
+    <string name="personal_info_change_loading">正在保存设置</string>
+    <string name="personal_info_change_success">保存成功</string>
+    <string name="personal_info_change_failed">保存失败</string>
+
+    <string name="device_binding_alert">确定绑定设备？</string>
+    <string name="device_unbinding_alert">您确定要解除设备绑定？</string>
+    <string name="device_binding_title">绑定设备</string>
+    <string name="device_unbinding_title">解绑设备</string>
+    <string name="device_binding_success">绑定成功</string>
+    <string name="device_binding_failed">设备已绑定或网络错误</string>
+    <string name="device_unbinding_success">解除绑定成功</string>
+    <string name="device_unbinding_failed">设备未绑定或网络错误</string>
+    <string name="device_binding_loading">设备绑定中...</string>
+    <string name="device_unbinding_loading">设备解绑中...</string>
+    <string name="device_already_bound">已绑定</string>
+    <string name="device_unbound">未绑定</string>
+
+    <string name="update_now_version_latest">当前应用是最新版本</string>
+    <string name="update_now_version_old">存在新版本</string>
+    <string name="update_now_version_alert">是否更新到最新版</string>
+    <string name="update_now_version_error">检查失败，请检查网络状态</string>
+    <string name="update_now_version_loading">检查更新中...</string>
+    <string name="update_now_version_already_latest">已最新</string>
+    <string name="update_now_version_has_latest">有新版</string>
+
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_notify_list">NotifyListActivity</string>
+    <string name="title_activity_notify_detail">NotifyDetailActivity</string>
+    <string name="action_notify_settings">View Notify Settings</string>
+    <string name="action_notify_message">View Notification</string>
+    <string name="action_all_messages">查看所有通知</string>
+    <string name="notifications_enabled">开启通知</string>
+    <string name="notifications_disabled">关闭通知</string>
+    <string name="receive_push_messages">接收消息</string>
+    <string name="do_not_receive_push_messages">不接收消息</string>
+    <string name="sound">声音</string>
+    <string name="play_sound_for_notifications">播放通知声音</string>
+    <string name="vibrate">震动</string>
+    <string name="vibrate_the_phone_for_notifications">有通知时手机震动</string>
+    <string name="title_activity_notify_setting">通知设置</string>
+
+    <string name="status_connected">已连接</string>
+    <string name="status_disconnect">已断开</string>
+    <string name="status_reconnecting">重连中</string>
+    <string name="status_reconnect_failed">重连失败</string>
+
+    <string name="button_login">登录</string>
+    <string name="status_conning">连接中</string>
+
+    <string name="error_message_webservice_request">请求失败或服务器异常</string>
+    <string name="data_loading">加载中...</string>
+    <string name="data_load_error">加载失败！</string>
+
+    <string name="company_spanner_prompt">请选择公司</string>
+    <string name="company_select_name">公司：</string>
+    <string name="plate_number_input_name">车牌号：</string>
+    <string name="task_number_input_name">任务号：</string>
+    <string name="entrust_number_input_name">委托号：</string>
+    <string name="complete_mark_select_name">完成状态：</string>
+    <string name="complete_mark_spanner_prompt">请选择状态</string>
+    <string name="search_button_title">查询</string>
+    <string name="function_content_search_fragment_error">此功能暂未实现或加载异常，请升级应用或重新打开功能</string>
+    <string name="scan_title">扫描二维码</string>
+    <string name="scan_card_hint">请先扫描港通卡</string>
+</resources>

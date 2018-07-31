@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/list_view_item_select_background"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/message_item_height">
+
+    <ImageView
+        android:id="@+id/message_item_delete_mark"
+        android:src="@color/white"
+        android:layout_width="5dp"
+        android:layout_height="@dimen/message_item_height"/>
+
+    <ImageView
+        android:id="@+id/message_item_read_mark"
+        android:src="@drawable/message_read_mark"
+        android:layout_gravity="center_vertical"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/message_item_imageView"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/message_left_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/message_item_send_user"
+                android:text="发送人"
+                android:textStyle="bold"
+                android:textSize="@dimen/message_item_send_size"
+                android:layout_marginLeft="@dimen/message_item_text_margin_left"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/message_item_time"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/message_item_text_margin_right"
+                android:layout_gravity="center_vertical"
+                android:text="2015-2-4 10:38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/message_item_content"
+            android:gravity="center_vertical"
+            android:text="消息内容"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/message_item_text_margin_left"
+            android:layout_marginRight="@dimen/message_item_text_margin_right"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

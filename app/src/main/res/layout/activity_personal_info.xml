@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <TableLayout
+        android:layout_margin="@dimen/personal_info_table_margin"
+        android:stretchColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:layout_marginTop="@dimen/personal_info_row_margin_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/personal_info_mark_text_size"
+                android:text="@string/personal_info_phone"/>
+
+            <EditText
+                android:layout_margin="@dimen/password_change_margin"
+                android:id="@+id/activity_personal_info_phone"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/personal_info_row_margin_left"
+                android:layout_marginRight="@dimen/personal_info_row_margin_right"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/personal_info_enter_height"
+                android:background="@drawable/login_username_background"
+                android:inputType="phone"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/personal_info_row_margin_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/personal_info_mark_text_size"
+                android:text="@string/personal_info_mobile"/>
+
+            <EditText
+                android:layout_margin="@dimen/password_change_margin"
+                android:id="@+id/activity_personal_info_mobile"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/personal_info_row_margin_left"
+                android:layout_marginRight="@dimen/personal_info_row_margin_right"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/personal_info_enter_height"
+                android:background="@drawable/login_username_background"
+                android:inputType="phone"/>
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/personal_info_row_margin_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/personal_info_mark_text_size"
+                android:text="@string/personal_info_email"/>
+
+            <EditText
+                android:layout_margin="@dimen/password_change_margin"
+                android:id="@+id/activity_personal_info_email"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/personal_info_row_margin_left"
+                android:layout_marginRight="@dimen/personal_info_row_margin_right"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/personal_info_enter_height"
+                android:background="@drawable/login_username_background"
+                android:inputType="textEmailAddress"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/activity_personal_info_button"
+            android:layout_marginTop="@dimen/personal_info_row_margin_top"
+            android:text="@string/button_save"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/toolbar_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_enter_height"/>
+    </TableLayout>
+
+</LinearLayout>

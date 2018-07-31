@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:background="@color/transparent"
+              android:layout_height="fill_parent">
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_weight="3"
+        android:layout_height="0dp"/>
+
+    <ImageView
+        android:src="@drawable/slogan_text"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"/>
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="function_1_title">
+        <item>票货查询</item>
+        <item>业务大委托有船作业</item>
+        <item>业务大委托无船作业</item>
+        <item>作业委托</item>
+        <item>车辆运输</item>
+        <item>汽车衡量码单</item>
+        <item>货物进港</item>
+        <item>货物出港</item>
+        <item>货物港内结存</item>
+    </string-array>
+
+    <string-array name="function_2_title">
+        <item>预报船舶</item>
+        <item>确报船舶</item>
+        <item>锚地船舶</item>
+        <item>泊位船舶</item>
+        <item>已做计划船舶</item>
+        <item>需要移泊船舶</item>
+        <item>引航费用</item>
+        <item>高频话费</item>
+    </string-array>
+
+    <string-array name="function_3_title">
+        <item>货物进港动态</item>
+        <item>货物出港动态</item>
+        <item>货物兑动态</item>
+        <item>货物港内结存</item>
+        <item>确报船舶</item>
+        <item>锚地船舶</item>
+        <item>泊位船舶</item>
+        <item>已做计划船舶</item>
+        <item>需要移泊船舶</item>
+    </string-array>
+
+    <string-array name="function_4_title">
+        <item>过磅委托查询</item>
+        <item>网上申报未导入车队车辆</item>
+        <item>已导入车队车辆</item>
+        <item>新陆桥公司作业计划</item>
+        <item>已放行运输</item>
+        <item>已提交未放行运输</item>
+    </string-array>
+
+    <string-array name="function_5_title">
+        <item>网上申报未导入车队车辆</item>
+        <item>已导入车队车辆</item>
+        <item>确报船舶</item>
+        <item>锚地船舶</item>
+        <item>泊位船舶</item>
+        <item>已做计划船舶</item>
+        <item>需要移泊船舶</item>
+        <item>港通卡基本信息</item>
+        <item>运输申报</item>
+        <item>港区通行</item>
+        <item>过磅记录</item>
+    </string-array>
+
+    <string-array name="function_6_title">
+        <item>锚地船舶</item>
+        <item>泊位船舶</item>
+        <item>已做计划船舶</item>
+        <item>需要移泊船舶</item>
+        <item>磅单查询</item>
+    </string-array>
+
+    <string-array name="other_function_title">
+        <item>@string/login_button</item>
+        <item>@string/device_binding_title</item>
+        <item>@string/mine_function_personal_info</item>
+        <item>@string/mine_function_password_change</item>
+        <item>@string/mine_function_update</item>
+        <!--
+        <item>@string/mine_function_settings</item>
+        <item>@string/mine_function_service</item>
+        <item>@string/mine_function_about</item>
+        -->
+    </string-array>
+
+    <string-array name="company_name">
+        <item>东联分公司</item>
+        <item>东源分公司</item>
+        <item>东泰分公司</item>
+        <item>新东润码头公司</item>
+        <item>新陆桥</item>
+        <item>新苏港码头公司</item>
+        <item>新海湾码头有限公司</item>
+        <item>新圩港码头有限公司</item>
+    </string-array>
+
+    <string-array name="company_code">
+        <item>010111</item>
+        <item>010113</item>
+        <item>010116</item>
+        <item>010118</item>
+        <item>010219</item>
+        <item>010246</item>
+        <item>010249</item>
+        <item>010250</item>
+    </string-array>
+
+    <string-array name="complete_mark_name">
+        <item>已完成</item>
+        <item>未完成</item>
+    </string-array>
+
+    <string-array name="complete_mark_code">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

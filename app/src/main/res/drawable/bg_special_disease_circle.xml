@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:bottom="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:left="8dp">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <corners android:radius="@dimen/circle_button_radius"/>
+                    <solid android:color="#e66b4f"/>
+                    <size
+                        android:width="@dimen/circle_button_diameter"
+                        android:height="@dimen/circle_button_diameter"/>
+                </shape>
+            </item>
+
+            <item>
+                <shape android:shape="oval">
+                    <corners android:radius="@dimen/circle_button_radius"/>
+                    <solid android:color="#f3876f"/>
+                    <size
+                        android:width="@dimen/circle_button_diameter"
+                        android:height="@dimen/circle_button_diameter"/>
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+</layer-list> 

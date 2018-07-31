@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_marginLeft="@dimen/function_search_margin_left"
+        android:layout_marginRight="@dimen/function_search_margin_right"
+        android:layout_marginBottom="@dimen/function_column_margin_bottom"
+        android:layout_marginTop="@dimen/function_search_margin_top">
+
+        <include layout="@layout/entrust_number_input"/>
+    </TableRow>
+</TableLayout>

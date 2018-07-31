@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/function_background">
+
+    <TableLayout
+        android:id="@+id/function_tableLayout"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/function_column_margin_bottom">
+
+            <ImageButton
+                android:id="@+id/function_imageButton_1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_marginRight="@dimen/function_column_margin_right"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_1"
+                android:tag="@string/function_tag_1"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/function_imageButton_2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_2"
+                android:tag="@string/function_tag_2"
+                android:background="@color/transparent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/function_column_margin_bottom">
+
+            <ImageButton
+                android:id="@+id/function_imageButton_3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_marginRight="@dimen/function_column_margin_right"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_3"
+                android:tag="@string/function_tag_3"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/function_imageButton_4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_4"
+                android:tag="@string/function_tag_4"
+                android:background="@color/transparent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/function_column_margin_bottom">
+
+            <ImageButton
+                android:id="@+id/function_imageButton_5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_marginRight="@dimen/function_column_margin_right"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_5"
+                android:tag="@string/function_tag_5"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/function_imageButton_6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_column="1"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/function_6"
+                android:tag="@string/function_tag_6"
+                android:background="@color/transparent"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
